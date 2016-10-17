@@ -26,7 +26,7 @@ function largestOfFour(arr) {
 		// only next line is changed
 		largestArrayValue.push(Math.max.apply(null, arr[i]));
 	}
-
+  // return result array
 	return largestArrayValue;
 }
 
