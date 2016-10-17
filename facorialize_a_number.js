@@ -19,7 +19,7 @@ function factorialWhile(num) {
 	var result = 1;
 	if (num < 0 || typeof num !== "number") {return -1};
 	if (num === 0 || num === 1) {return 1};
-	
+
   while(num > 1) {
   	result *= num;
   	num--;
